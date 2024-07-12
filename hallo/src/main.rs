@@ -1,5 +1,6 @@
 mod lib;
 
 fn main() {
-    lib::lib_test();
+    let result = lib::addition(1, 2);
+    println!("Result: {}", result);
 }

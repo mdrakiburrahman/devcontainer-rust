@@ -29,6 +29,7 @@ sudo apt-get install mingw-w64
    - Once the breakpoint is hit, try hovering over variables, examining locals, and more.
 
 1. **Use `cargo`**
+   - Clean: `cargo clean`
    - Build: `cargo build`
    - Run: `cargo run`
    - Build DLL: `cargo build --lib --target x86_64-pc-windows-gnu`. DLL is available here: `target/x86_64-pc-windows-gnu/debug/hallo.dll`

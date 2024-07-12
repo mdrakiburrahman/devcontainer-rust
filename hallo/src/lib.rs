@@ -1,4 +1,4 @@
 #[no_mangle]
-pub extern fn lib_test() {
-    println!("Hello from the library!");
+pub extern "C" fn addition(a: u32, b: u32) -> u32 {
+    a + b
 }
